@@ -4,14 +4,15 @@ flutter 插件
 
 flutter seekbar
 
-A beautiful flutter custom seekbar, which has a bubble view with progress appearing upon when seeking. 自定义SeekBar，进度变化更以可视化气泡样式呈现
-
-
+A beautiful flutter custom seekbar, which has a bubble view with progress appearing upon when
+seeking. 自定义SeekBar，进度变化更以可视化气泡样式呈现
 
 ### 效果图
+
 ![flutter_seekbar](/screenshot.gif)
 
 #### 引入:
+
 ```
 dependencies:
   flutter:
@@ -19,6 +20,7 @@ dependencies:
   flutter_seekbar:
     git: https://github.com/LiuC520/flutter_seekbar.git
 ```
+
 #### 属性
 
 | Attribute 属性          | 默认值|Description 描述 |
@@ -58,12 +60,10 @@ dependencies:
 | bubbleInCenter        |  false |气泡是否在进度条的中间显示，默认是
 | isCanTouch        |  true |是否响应触摸事件，默认是响应的，也就是可以拖拽显示进度的
 
-
-
-
 # Example
 
 1、首先在pubspec.yaml中添加依赖
+
 ```
 dependencies:
   flutter:
@@ -74,6 +74,7 @@ dependencies:
 ```
 
 2、示例
+
 ```
 import 'package:flutter_seekbar/flutter_seekbar.dart' show ProgressValue, SectionTextModel, SeekBar;
 
@@ -440,9 +441,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
 ```
 
 # contact me
-qq: 674668211
-wechat ：674668211 加微信进flutter微信群
-掘金： https://juejin.im/user/581206302f301e005c60cd2f
+
+qq: 674668211 wechat ：674668211 加微信进flutter微信群 掘金： https://juejin.im/user/581206302f301e005c60cd2f
 简书：https://www.jianshu.com/u/4a5dce56807b
 csdn：https://me.csdn.net/liu__520
 github : https://github.com/LiuC520/
