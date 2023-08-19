@@ -1,6 +1,6 @@
 name: flutter_seekbar
 description: flutter_seekbar UI.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/LiuC520/flutter_seekbar
 environment:
   sdk: ^3.0.0
